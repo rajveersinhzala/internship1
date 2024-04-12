@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.chat-bot{
+    width: 45%;
+    background:rgb(229, 238,255);
+    margin:18px;
+    margin-top: 53px;
+    border-radius: 17px;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.chat-bot>p{
+padding: 4px;
+font-size:13px ;
+
+}
+
+.s-time{
+    margin-top: 30px;
+    font-size: 10px;
+}
+.s-time1{
+    margin-left: 27px;
+    font-size: 10px;
+    
+}
+
+.two{
+    margin: 1px;
+}
+
+.user-message{
+    height: 45px;
+    width: 45%;
+    background-color:#DCF7C5;
+    margin:18px;
+    margin-top: 30px;
+    border-radius: 17px;
+    padding: 12px;
+   margin-left:200px;
+   margin-bottom: 10px;
+    
+}
+
+.user-message>p{
+padding: 4px;
+font-size:13px ;
+
+
+}
+
+.u-time{
+    margin: 6px;
+    margin-top: 20px;
+    float: right;
+    font-size: 10px;
+}
+
+.tags{
+    height: 65px;
+    width: 88%;
+    margin:17px;
+    margin-top: 25px;
+    border-radius: 17px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    float: inline-end;
+}
+.scroll-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none; /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide the scrollbar in IE and Edge */
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar in Chrome, Safari, and Opera */
+  }
+  
+  .chips-container {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+     /* Add padding to the right to create space for the hidden scrollbar */
+  }
+  
+  .slider-icon {
+    flex-shrink: 0; /* Prevent the slider icon from shrinking */
+  }
+  
+
+.tags>p{
+    color:#949494 ;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+.item{
+    height:138px;
+    width: 70%;
+    background:rgb(229, 238,255);
+    margin-top: 20px;
+    border-radius: 17px;
+    align-items: center;
+    padding: 10px;
+}
+
+.filter{
+    margin-top: 30px;
+    display: flex;
+}
+
+.filter>p{
+    color:#949494 ;
+    font-size: 13px;
+}

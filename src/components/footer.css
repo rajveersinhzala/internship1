@@ -1,0 +1,34 @@
+.my-footer{
+    padding: 12px;
+    background-color: #F2F7FF;
+    height: 100%;
+    align-items: flex-start;
+    display: flex;
+    color: rgba(76, 130, 239, 1);
+    margin-bottom: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.send-button{
+    display: flex;
+}
+
+.send-button>button{
+    height: 40px;
+    width:70px ;
+    font-size: 30px;
+    color: white;
+    background: rgba(76, 130, 239, 1);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left:8px ;
+}
+
+.text{
+    border: 2px solid red;
+    width:50%;
+    position: relative;
+}
